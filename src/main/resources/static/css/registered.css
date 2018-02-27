@@ -1,0 +1,195 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	position: relative;
+	background: rgb(246, 246, 246);
+}
+
+#navigation7{
+	background: rgba(255,255,255,0.9);
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 5% 100%;
+	background-position: 3% center;
+	width: 100%;
+	height: 60px;
+	position: relative;
+	position: absolute;
+	top: 0;
+	position:fixed;
+	z-index: 99999;
+}
+
+#navigation7>ul>li:nth-child(1) a::after{
+	content:'HOMEPAGE 首页';
+	height: 60px;
+	line-height: 20px;
+	box-sizing: border-box;
+	padding-top:10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	width: 120px;
+	display: none;
+	background: #FF8B6F;
+	font-size:15px;
+	color:#fff;
+	position: absolute;
+	top: 0;
+}
+#navigation7>ul>li:nth-child(1) a:hover::after{
+	display: block;
+}
+#navigation7>ul>li:nth-child(2) a:hover::after{
+	display: block;
+}
+#navigation7>ul>li:nth-child(3) a:hover::after{
+	display: block;
+}
+#navigation7>ul>li:nth-child(4) a:hover::after{
+	display: block;
+}
+#navigation7>ul>li:nth-child(5) a:hover::after{
+	display: block;
+}
+#navigation7>ul>li:nth-child(2) a::after{
+	content:'PROFILE 系统简介';
+	height: 60px;
+	line-height: 20px;
+	box-sizing: border-box;
+	padding-top:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 120px;
+	display: none;
+	background: #474747;
+	font-size:15px;
+	color:#fff;
+	position: absolute;
+	top: 0;
+}
+#navigation7>ul>li:nth-child(3) a::after{
+	content:'ALBUN 相册管理';
+	height: 60px;
+	line-height: 20px;
+	box-sizing: border-box;
+	padding-top:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 120px;
+	display:none;
+	background: #0FAE6F;
+	font-size:15px;
+	color:#fff;
+	position: absolute;
+	top: 0;
+}
+#navigation7>ul>li:nth-child(4) a::after{
+	background: #3985F3;
+	content:'SETTING 个人设置';
+	height: 60px;
+	line-height: 20px;
+	box-sizing: border-box;
+	padding-top:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 120px;
+	display: none;
+	font-size:15px;
+	color:#fff;
+	position: absolute;
+	top: 0;
+}
+#navigation7 ul{
+	height: 60px;
+	padding-left: 8%;
+}
+#navigation7 div{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 10%;
+	top: 5px;
+}
+#navigation7>div>a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	color:#474747;
+	text-align:center;
+}
+#navigation7>div>a:hover{
+	color: #0FAE6F;
+}
+#navigation7 ul li{
+	height: 60px;
+	line-height: 60px;
+	font-size: 19px;
+	text-align:center;
+	float: left;
+	width: 120px;
+}
+#navigation7>ul>li>a{
+	display: block;
+	height: 60px;
+	width: 120px;
+	color: #474747;
+}
+
+#div2{
+	width: 350px;
+	height: 420px;
+	border-radius: 5px;
+	background: rgba(244, 223, 225, 0.6);
+	position: absolute;
+	top: 150px;
+	left: 600px;
+}
+#div2>img{
+	width: 50px;
+	height: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#div2>a{
+	display: block;
+	font-size: 25px;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color:rgb(20, 20, 20);
+	margin-top: -80px;
+}
+#div2>input{
+	width: 230px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+#div2>button{
+	width: 230px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left: 55px;
+	margin-top: 10px;
+
+}
+#div2>p{
+	width: 230px;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 55px;
+	margin-top: 20px;
+	text-align: center;
+}
